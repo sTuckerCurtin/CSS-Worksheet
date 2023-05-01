@@ -1,0 +1,75 @@
+
+/* This will apply all included styles to the header element */
+header{
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+/* This will apply all included styles to any element which uses the "logo" class*/
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -75px;
+}
+
+/* This will apply any included styles to the body element */
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: mediumaquamarine;
+
+}
+
+/* Create your own classes below! */
+.rounded-box{
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+}
+.background-color-red{
+    background-color: #cd7766;
+}
+
+.background-color-pruple{
+    background-color: #cd66bd;
+
+}
+
+.background-color-tan{
+    background-color: #cdab66;
+}
+
+.container{
+    display: flex;
+}
+
+.resize-image{
+    width: 50%;
+    height: auto;
+}
